@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 
 import logo from "../assets/devflix.png";
 import searchIcon from "../assets/search.svg";
+import "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 
 import "./App.css";
 import MovieCard from "../components/movieCards/movieCard";
+import Footer from "../components/footer/footer";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -58,6 +60,7 @@ const App = () => {
           <h2>Nenhum flime encontrado😢</h2>
         </div>
       )}
+      <Footer link={"https:github.com.br"}>Rabaka</Footer>
     </div>
   );
 };
