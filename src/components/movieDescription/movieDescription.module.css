@@ -71,3 +71,11 @@
     height: 5%;
     border-radius: 0;
 }
+.movieType a{
+    margin-top: 1em;
+    padding: 0.2em 0.7em;
+    background: white;
+    border-radius: 0.4em;
+    text-decoration: none;
+    font-weight: bolder;
+}
