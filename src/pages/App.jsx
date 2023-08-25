@@ -5,7 +5,7 @@ import searchIcon from "../assets/search.svg";
 import "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 
 import "./App.css";
-import MovieCard from "../components/movieCards/movieCard";
+import MovieCard from "../components/movieCard/movieCard";
 import Footer from "../components/footer/footer";
 
 const App = () => {
@@ -57,7 +57,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h2>Nenhum flime encontrado😢</h2>
+          <h2>Nenhum filme encontrado😢</h2>
         </div>
       )}
       <Footer link={"https:github.com.br"}>Rabaka</Footer>
